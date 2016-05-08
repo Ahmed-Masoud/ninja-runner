@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA6AEBFA1BE7D52600E9769E /* MLPointsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AEBF91BE7D52600E9769E /* MLPointsLabel.swift */; settings = {ASSET_TAGS = (); }; };
 		EAD8AF631BD68FB300F23B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF621BD68FB300F23B98 /* AppDelegate.swift */; };
 		EAD8AF651BD68FB300F23B98 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EAD8AF641BD68FB300F23B98 /* GameScene.sks */; };
 		EAD8AF671BD68FB300F23B98 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF661BD68FB300F23B98 /* GameScene.swift */; };
@@ -16,6 +17,11 @@
 		EAD8AF711BD68FB300F23B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD8AF6F1BD68FB300F23B98 /* LaunchScreen.storyboard */; };
 		EAD8AF7C1BD68FB300F23B98 /* ninja_runTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF7B1BD68FB300F23B98 /* ninja_runTests.swift */; };
 		EAD8AF871BD68FB300F23B98 /* ninja_runUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF861BD68FB300F23B98 /* ninja_runUITests.swift */; };
+		EAD8AF951BD68FF000F23B98 /* MLovingground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF941BD68FF000F23B98 /* MLovingground.swift */; settings = {ASSET_TAGS = (); }; };
+		EAD8AF971BD6902B00F23B98 /* MLHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF961BD6902B00F23B98 /* MLHero.swift */; settings = {ASSET_TAGS = (); }; };
+		EAD8AF991BD6904B00F23B98 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF981BD6904B00F23B98 /* constants.swift */; settings = {ASSET_TAGS = (); }; };
+		EAD8AF9B1BD6907400F23B98 /* MLwallgenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF9A1BD6907400F23B98 /* MLwallgenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		EAD8AF9D1BD6909300F23B98 /* MLwall.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD8AF9C1BD6909200F23B98 /* MLwall.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA6AEBF91BE7D52600E9769E /* MLPointsLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLPointsLabel.swift; sourceTree = "<group>"; };
 		EAD8AF5F1BD68FB300F23B98 /* ninja-run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ninja-run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD8AF621BD68FB300F23B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD8AF641BD68FB300F23B98 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		EAD8AF661BD68FB300F23B98 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EAD8AF661BD68FB300F23B98 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; usesTabs = 0; };
 		EAD8AF681BD68FB300F23B98 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EAD8AF6B1BD68FB300F23B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAD8AF6D1BD68FB300F23B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		EAD8AF821BD68FB300F23B98 /* ninja-runUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ninja-runUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD8AF861BD68FB300F23B98 /* ninja_runUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninja_runUITests.swift; sourceTree = "<group>"; };
 		EAD8AF881BD68FB300F23B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD8AF941BD68FF000F23B98 /* MLovingground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLovingground.swift; sourceTree = "<group>"; };
+		EAD8AF961BD6902B00F23B98 /* MLHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHero.swift; sourceTree = "<group>"; };
+		EAD8AF981BD6904B00F23B98 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		EAD8AF9A1BD6907400F23B98 /* MLwallgenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLwallgenerator.swift; sourceTree = "<group>"; };
+		EAD8AF9C1BD6909200F23B98 /* MLwall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLwall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,12 @@
 				EAD8AF6D1BD68FB300F23B98 /* Assets.xcassets */,
 				EAD8AF6F1BD68FB300F23B98 /* LaunchScreen.storyboard */,
 				EAD8AF721BD68FB300F23B98 /* Info.plist */,
+				EAD8AF941BD68FF000F23B98 /* MLovingground.swift */,
+				EAD8AF961BD6902B00F23B98 /* MLHero.swift */,
+				EAD8AF981BD6904B00F23B98 /* constants.swift */,
+				EAD8AF9A1BD6907400F23B98 /* MLwallgenerator.swift */,
+				EAD8AF9C1BD6909200F23B98 /* MLwall.swift */,
+				EA6AEBF91BE7D52600E9769E /* MLPointsLabel.swift */,
 			);
 			path = "ninja-run";
 			sourceTree = "<group>";
@@ -265,9 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD8AF9D1BD6909300F23B98 /* MLwall.swift in Sources */,
 				EAD8AF671BD68FB300F23B98 /* GameScene.swift in Sources */,
+				EAD8AF951BD68FF000F23B98 /* MLovingground.swift in Sources */,
+				EAD8AF9B1BD6907400F23B98 /* MLwallgenerator.swift in Sources */,
+				EAD8AF971BD6902B00F23B98 /* MLHero.swift in Sources */,
+				EA6AEBFA1BE7D52600E9769E /* MLPointsLabel.swift in Sources */,
 				EAD8AF691BD68FB300F23B98 /* GameViewController.swift in Sources */,
 				EAD8AF631BD68FB300F23B98 /* AppDelegate.swift in Sources */,
+				EAD8AF991BD6904B00F23B98 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +432,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ninja-run/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SICASM.ninja-run";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,9 +445,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ninja-run/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SICASM.ninja-run";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -494,6 +522,7 @@
 				EAD8AF8D1BD68FB300F23B98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAD8AF8E1BD68FB300F23B98 /* Build configuration list for PBXNativeTarget "ninja-runTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +531,7 @@
 				EAD8AF901BD68FB300F23B98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAD8AF911BD68FB300F23B98 /* Build configuration list for PBXNativeTarget "ninja-runUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +540,7 @@
 				EAD8AF931BD68FB300F23B98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
